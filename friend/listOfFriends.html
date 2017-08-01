@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background-image:url("https://smartnesspersonified2307vany.files.wordpress.com/2013/10/images-tumblr-backgrounds-flowers-images-wallpapers-hd.jpg");
+}
+</style>
+</head>
+<body>
+<div>
+<center>
+<ul ng-repeat=" c in friendslist">
+<li ng-hide="c.from==currentUser.username">{{c.from}}</li>
+<li ng-hide="c.to==currentUser.username">{{c.to}}</li>
+</center>
+</div>
+</ul>
+</body>
+</html>
